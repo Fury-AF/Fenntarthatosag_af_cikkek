@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Overpass:ital@0;1&family=Roboto+Flex:opsz,wght@8..144,300&family=Staatliches&display=swap');
+:root{
+    --hatterAtmenet2: #edede9;
+    --hatterAtmenet1: #cebdb0;
+}
+
+aside img {
+    max-width: 150px;
+    border-radius: 20px;
+  }
+body{
+  background-image: linear-gradient(var(--hatterAtmenet1), var(--hatterAtmenet2));
+  background-size: cover;
+  justify-content: center;
+}
+nav ul
+{
+    width: 100%;
+    height: 50px;
+    background: var(--menu);
+    display: flex;
+    margin:auto;
+    justify-content: space-evenly;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas:
+      "h   h   h"
+      "asb ar ar"
+      "f   f  f";
+    grid-gap: 10px;
+  }
+header{
+        height: 100px;
+        opacity: 0.8;
+        background-image: url("./képek/pexels-markus-spiske-97050.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 0;
+        border-radius: 15px;
+    }
+
+  
+  header {
+    grid-area: h;
+  }
+  article{ 
+    max-width: 90%;
+    position: relative;
+    left: 30px;
+  }
+
+  article img{
+    width: 200px;
+    border-radius: 100%;
+}
+  article img{
+   max-height: 300px;
+   width: 400px;
+  }
+  #mellék_div{
+    
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    overflow: hidden;
+}
+
+  #bal {
+    grid-area: asb;
+  }
+  article {
+    grid-area: ar;
+  }
+  aside{
+    border-style: dotted;
+    width:min-content;
+    padding: 5%;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+
+  }
+  footer {
+    grid-area: f;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(166, 28, 28);
+  }
+  aside li{
+    padding: auto;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "k1 "
+    "k2 "
+    "k3 "
+  }
+  k1{
+    grid-area: k1;
+  }
+  k2{
+    grid-area: k2;
+  }
+  k3{
+    grid-area: k3;
+  }

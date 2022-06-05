@@ -1,0 +1,16 @@
+{
+
+ "kepek": [
+            {"fotos":"Balla Soma",
+             "modell":"Szoboszlai Bella",
+             "utv":"./galeria_kepek/balla_soma/bs1.jpg"
+            },
+            {"fotos":"Fehér Szebi",
+             "modell":"Jeszenszky Luca ",
+             "utv":"./galeria_kepek/feher_szebi/fsz1.jpg"
+               },
+            {"fotos":"Gál Regina",
+             "modell":"Nagy Hanna Napsugár",
+             "utv":"./galeria_kepek/gall_regina/gr1.jpg"
+              }]
+             }
